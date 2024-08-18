@@ -1,1 +1,61 @@
-<h1>Welcome to Scorpion</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorpion</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: 'VT323', monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .mystery {
+            text-align: center;
+            border: 3px solid #00ff00;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
+            position: relative;
+            animation: glitch 2s infinite;
+        }
+
+        h1 {
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.8), -2px -2px 5px rgba(0, 255, 0, 0.8);
+            letter-spacing: 5px;
+            margin: 0;
+            animation: textGlitch 2s infinite;
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-5px, 5px); }
+            40% { transform: translate(5px, -5px); }
+            60% { transform: translate(-5px, -5px); }
+            80% { transform: translate(5px, 5px); }
+            100% { transform: translate(0); }
+        }
+
+        @keyframes textGlitch {
+            0% { text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.8), -2px -2px 5px rgba(0, 255, 0, 0.8); }
+            50% { text-shadow: 5px 5px 10px rgba(0, 255, 0, 1), -5px -5px 10px rgba(0, 255, 0, 1); }
+            100% { text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.8), -2px -2px 5px rgba(0, 255, 0, 0.8); }
+        }
+    </style>
+</head>
+<body>
+    <div class="mystery">
+        <h1>Welcome to Scorpion</h1>
+    </div>
+</body>
+</html>
