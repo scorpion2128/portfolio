@@ -1,0 +1,17 @@
+{
+  "authority": "https://sso-qa.qualifacts.org",
+  "client_id": "60358ad1-3199-4091-b5c0-4887d2bbf065",
+  "redirect_uri": "https://mobile-local.qualifacts.org/oidc/callback",
+  "scope": "openid profile evv.read evv.write evv.search",
+  "response_type": "code",
+  "post_logout_redirect_uri": "https://mobile-local.qualifacts.org",
+  "revokeTokensOnSignout": true,
+  "metadata": {
+      "authorization_endpoint": "https://sso-qa.qualifacts.org/as/authorize",
+      "token_endpoint": "https://sso-qa.qualifacts.org/as/token",
+      "revocation_endpoint": "https://sso-qa.qualifacts.org/as/revoke",
+      "userinfo_endpoint": "https://sso-qa.qualifacts.org/as/userinfo",
+      "jwks_uri": "https://sso-qa.qualifacts.org/as/jwks",
+      "end_session_endpoint": "https://sso-qa.qualifacts.org/as/signoff"
+  }
+}
