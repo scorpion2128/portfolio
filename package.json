@@ -1,22 +1,35 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio personal de Alexander Chacchi, un ingeniero de software senior con más de 10 años de experiencia.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scorpion2128/portfolio.git"
+    "url": "https://github.com/scorpion2128/portfolio.git"
   },
-  "author": "",
+  "author": "Alexander Chacchi <alexander@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scorpion2128/portfolio/issues"
   },
-  "homepage": "https://github.com/scorpion2128/portfolio#readme",
+  "homepage": "https://scorpion2128.github.io/portfolio",
   "dependencies": {
-    "react-icons": "^5.4.0"
-  }
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-icons": "^5.4.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "portfolio",
+    "react",
+    "software-engineer",
+    "alexander-chacchi"
+  ]
 }
