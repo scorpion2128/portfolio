@@ -25,7 +25,9 @@
     "react-icons": "^5.4.0",
     "react-scripts": "5.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@vercel/static-build": "^2.6.2"
+  },
   "keywords": [
     "portfolio",
     "react",
