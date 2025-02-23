@@ -1,49 +1,29 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio personal de Alexander Chacchi, un ingeniero de software senior con más de 10 años de experiencia.",
-  "main": "index.js",
+  "name": "react-portafolio-achacchi",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/scorpion2128/portfolio.git"
-  },
-  "author": "Alexander Chacchi <alexander@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/scorpion2128/portfolio/issues"
-  },
-  "homepage": "https://scorpion2128.github.io/portfolio",
   "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-icons": "^5.4.0",
-    "react-scripts": "5.0.1"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@vercel/static-build": "^2.6.2"
-  },
-  "keywords": [
-    "portfolio",
-    "react",
-    "software-engineer",
-    "alexander-chacchi"
-  ],
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@eslint/js": "^9.19.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react-swc": "^3.5.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.18",
+    "globals": "^15.14.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.22.0",
+    "vite": "^6.1.0"
   }
 }
